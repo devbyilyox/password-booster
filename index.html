@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Mes Réseaux</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-pV4N+4mKOSg4iY1Khv8KcF98EcUY1OEeCPMvK8JjT/HkY1F1KjFqsV1HROF2xM0uhpWbrM1FmgFX6XdwAJzUzg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card: #1e293b;
+      --primary: #3b82f6;
+      --text: #f1f5f9;
+      --accent: #38bdf8;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Outfit', sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+      min-height: 100vh;
+    }
+
+    .profile {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+
+    .profile img {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      border: 4px solid var(--accent);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      transition: transform 0.3s;
+    }
+
+    .profile img:hover {
+      transform: scale(1.05);
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-top: 1rem;
+      font-weight: 700;
+    }
+
+    .social {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 1.5rem;
+      width: 100%;
+      max-width: 800px;
+    }
+
+    .social a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 1rem;
+      background: var(--card);
+      border: 2px solid transparent;
+      border-radius: 1rem;
+      color: var(--text);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1rem;
+      transition: all 0.3s ease;
+    }
+
+    .social a:hover {
+      border-color: var(--accent);
+      background-color: var(--primary);
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="profile">
+    <img src="https://via.placeholder.com/160" alt="Photo de profil">
+    <h1>Votre Nom</h1>
+  </div>
+
+  <div class="social">
+    <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+    <a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+    <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+    <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+    <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook"></i> Facebook</a>
+    <a href="mailto:you@example.com"><i class="fas fa-envelope"></i> Email</a>
+  </div>
+</body>
+</html>
