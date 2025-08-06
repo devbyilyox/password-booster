@@ -68,7 +68,7 @@ Il améliore la sécurité en ajoutant majuscules, chiffres, symboles et en allo
 
 إذا أعجبك المشروع وترغب في دعمه، يمكنك تقديم تبرع عبر Stripe:
 
-[![Faire un don - Stripe](https://img.shields.io/badge/Faire%20un%20don-Stripe-5e5ee5?style=for-the-badge&logo=stripe&logoColor=white)](https://buy.stripe.com/test_7sIeWj7d3e5e7iAaEE)
+[![Faire un don - Stripe](https://img.shields.io/badge/Faire%20un%20don-Stripe-5e5ee5?style=for-the-badge&logo=stripe&logoColor=white)](https://pay.jmx94.fr)
 
 ---
 
