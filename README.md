@@ -86,9 +86,9 @@ Ce projet est sous licence MIT — libre d’utilisation, modification et partag
 
 ## 📬 Contact
 
-**Rayann**  
-GitHub : [https://github.com/Ilyox93](https://github.com/Ilyox93)  
-Email : ton.email@example.com
+**Ilyox**  
+GitHub : [https://github.com/devbyilyox](https://github.com/devbyilyox)  
+Email : contact@ilyox.fr
 
 ---
 
